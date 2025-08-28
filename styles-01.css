@@ -1,0 +1,33 @@
+body{
+        background-color: #33312f
+        }
+            #h2{
+                font-family: Arial, Helvetica, sans-serif
+                color:wheat;
+            
+            }
+            #p1{
+                color: tomato;
+            }
+            #p2{
+                color: rgb(122, 280, 225);
+            }
+            #p3{
+                color: orange;
+            }
+            #p4{
+                color: purple;
+            }
+            #p1.odd{
+                color: red;
+            }
+            #p3.odd{
+                color: green;
+            }
+            #p2.even{
+                color:yellow;
+            }
+            #p4.even{
+                color: skyblue;
+            }
+    

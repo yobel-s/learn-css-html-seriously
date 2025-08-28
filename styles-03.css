@@ -1,0 +1,54 @@
+body{
+    background-color: #f0f0f054;
+    border: 1px solid #000000;
+}
+#img1{
+    float: left;
+    margin: 10px;
+}
+#img2{
+    float: right;
+    margin: 10px;
+}
+#p{
+    float: left;
+    margin: 10px;
+}
+div{
+    margin: 10px;
+    border: 2px solid #000000;
+    height: 75px;
+    overflow: auto;
+}
+#div1{
+    background-color: lch(46.78% 89.39 38.05);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+span{
+    margin: 10px;
+    background-color: #1f1fb9;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(26, 226, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(201, 201, 191);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}

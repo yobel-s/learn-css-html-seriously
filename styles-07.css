@@ -1,0 +1,114 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+    color: chartreuse;
+}
+p::first-line{
+    background-color: yellow;
+}
+p::selection{
+    background-color: rgb(22, 94, 7);
+    color: rgb(255, 255, 255);
+}
+#fruit li::before{
+    content: "✅";
+}
+#apple::after{
+    content: "🍏";
+}
+#orange::after{
+    content: "🍊";
+}
+#banana::after{
+    content: "🍌";
+}
+#fruit li::marker{
+    color: rgb(255, 0, 0);
+    font-size: 150%;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(26, 226, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(201, 201, 191);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: rgb(177, 177, 175);
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(250, 250, 250);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.8);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: rgb(212, 163, 163);
+    color: rgb(0, 0, 0);
+}
+.dropdown a:hover{
+    background-color: rgb(201, 201, 191);
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+.navbar ul{
+    background-color: rgb(60, 240, 24);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(248, 244, 0);
+    color: rgb(0, 0, 0);
+}
+.navbar li{
+    float: left;
+}
+main{
+    margin: 20px;
+}

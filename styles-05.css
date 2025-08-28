@@ -1,0 +1,42 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: #0bdaff;
+    position: sticky;
+    top: 0;
+
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: #ff6347;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+#box3{
+    width: 150px;
+    height: 150px;
+    background-color: #32cd32;
+    position: sticky;
+    top: 250px;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(26, 226, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(201, 201, 191);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}

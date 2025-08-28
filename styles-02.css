@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Roboto-light ;
+    src: url(Roboto-Light.ttf);
+}
+h1{ 
+    text-shadow: 3px 3px 1px #ff0000, -3px -3px 5px #1dcfdb;
+    border: 3px dotted #c822ce;
+    font-family: Verdana, arial;
+}
+p{
+    border-bottom: 3px solid #c822ce;
+    border-top: 3px solid #ce6f22;
+    border-left: 3px dotted #22ce6f;
+    border-right: 3px dotted #2233ce;
+    font-family: Roboto-light, 'Lucida console', 'Courier New';
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+}
+#box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #c5b0bf;
+    border: 5px solid #000000;
+    box-shadow: 3px 3px 5px #b1a0a0;
+}
+body {
+    margin: 0px;
+}
+.box{
+    border: solid #000000;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+}   
+#box2 {
+    background-color: #fc0c0c;
+    
+}
+#box3 {
+    background-color: #0cccfc;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.pagination a.active{
+    background-color: rgb(26, 226, 0);
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pagination a:hover:not(.active){
+    background-color: rgb(201, 201, 191);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
